@@ -1,0 +1,53 @@
+
+/* 
+    font-family: 'Lexend Giga', sans-serif;
+
+    font-family: 'Lexend Deca', sans-serif; */
+
+
+
+body{
+  background-image:url('dribble_2-07.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+/* NAVIGATION-BAR */
+
+.nav-color{
+  /* background-color: #000; */
+}
+
+.nav-link{
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-link:hover{
+  color: chartreuse;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* SECOND-DIV-DISCRIPTION */
+
+.head-div{
+  height: 500px;
+}
+
+.heading-one{
+  font-family: 'Lexend Giga', sans-serif;
+  color: #000;
+  /* color: #fff; */
+  margin-top: 250px;
+}
+
+@media(max-width:580px){
+  .heading-one{
+    text-align: center;
+    font-size:60px;
+    
+  }
+  body{
+    background-image: url('media-query-back.png');
+  }
+}

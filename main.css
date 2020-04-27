@@ -1,0 +1,143 @@
+body{
+    /* background-color: #0779e4; */
+    /* background-color: #00bcd4; */
+}
+
+.card{
+    height: 200px;
+    width: 200px;
+}
+/* Navigation-Bar */
+
+.fas{
+  color: #000;
+}
+.navbar{
+  /* background-color:#fff; */
+  background-color: #f2ed6f;
+}
+.nav-head{
+  /* font-family: 'Press Start 2P', cursive; */
+  font-family: 'Bungee', cursive;
+  font-size: 30px;
+  color:#222831;
+  text-shadow:
+    6px 6px #00bdaa,
+    5.5px 5.5px #00bdaa,
+    5px 6px #00bdaa,
+    4px 4px #00bdaa,
+    3px 3px #00bdaa,
+    2px 2px #00bdaa,
+    1px 1px #00bdaa;
+}
+
+.nav-drop{
+  color:#fff;
+}
+.menu{
+    height:35px;
+    width: 35px;
+}
+.intro-contain{
+  margin-top:100px;
+  
+}
+
+.intro-head{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  /* color: #00bdaa; */
+  /* color:  #5362F6; */
+  color:#222831;
+  /* color: #fff; */
+  /* text-shadow:
+    6px 6px #f2ed6f,
+    5px 6px #f2ed6f,
+    4px 4px #f2ed6f,
+    3px 3px #f2ed6f,
+    2px 2px #f2ed6f,
+    1px 1px #f2ed6f; */
+
+}
+
+
+.nav-drop{
+  font-family: 'Montserrat', sans-serif;
+  color:#222831;
+}
+
+.skill-contain{
+  margin-top:100px;
+}
+
+.skill-head{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  margin-top: 200px;
+  margin-bottom:80px;
+  color:#222831;
+  text-shadow:
+    6px 6px #f2ed6f,
+    5px 6px #f2ed6f,
+    4px 4px #f2ed6f,
+    3px 3px #f2ed6f,
+    2px 2px #f2ed6f,
+    1px 1px #f2ed6f;
+}
+.skill-img{
+  height: 100px;
+  width: 100px;
+}
+h1{
+  font-family: 'Bungee', cursive;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+.skill-intro{
+  padding: 20px;
+ 
+}
+
+
+.fa-html5{
+  color:red;
+}
+
+.fa-css3-alt {
+  color:blue;
+}
+
+.fa-js{
+  color:#f0a500;
+}
+
+.fa-python{
+  color:#21c475;
+}
+
+
+
+/* MEDIA-QUERY */
+
+@media (max-width:580px){
+  .menu{
+    height:30px;
+    width: 30px;
+  }
+
+  .intro-contain{
+    margin-top: 60px;
+  }
+  .intro-head{
+    font-size: 50px;
+    border: 1.5px solid;
+    padding: 30px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
+  .skill-img{
+    height:100px;
+    width: 100px;
+  }
+}
