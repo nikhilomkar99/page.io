@@ -28,6 +28,19 @@
 }
 
 @font-face {
+  font-family: 'chequeregular';
+  src: url('CHEQUE/cheque-regular-webfont.woff2') format('woff2'),
+       url('CHEQUE/cheque-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
   font-family: 'chequeblack';
   src: url('CHEQUE/cheque-black-webfont_1.woff2') format('woff2'),
     url('CHEQUE/cheque-black-webfont_1.woff') format('woff');
@@ -60,21 +73,19 @@ body {
 }
 
 .nav-link {
-  color: #fff;
-  /* font-family: 'Quicksand', sans-serif; */
   font-family: 'bebas_neuebold';
   font-size:20px;
 }
 
-.nav-link:hover {
-  /* font-family: 'Quicksand', sans-serif; */
+.nav-link:hover{
+  color: #f78259;
 }
 
 /* SECOND-DIV-DISCRIPTION */
 
 .head{
   /* font-family: 'bebas_neuebold'; */
-  font-family: '36_daysregular','chequeblack';
+  font-family: '36_daysregular','chequeregular';
   text-align: center;
 }
 
