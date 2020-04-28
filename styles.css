@@ -1,53 +1,91 @@
+/* FONTS */
 
-/* 
-    font-family: 'Lexend Giga', sans-serif;
+@font-face {
+  font-family: '36_daysregular';
+  src: url('360 days/36days-regular-webfont.woff2') format('woff2'),
+       url('360 days/36days-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
-    font-family: 'Lexend Deca', sans-serif; */
+}
+
+@font-face {
+  font-family: 'bebas_neuelight';
+  src: url('BebasNeue/bebasneue-light-webfont.woff2') format('woff2'),
+       url('BebasNeue/bebasneue-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'bebas_neuebold';
+  src: url('BebasNeue/bebasneue-bold-webfont.woff2') format('woff2'),
+       url('BebasNeue/bebasneue-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'chequeblack';
+  src: url('CHEQUE/cheque-black-webfont_1.woff2') format('woff2'),
+    url('CHEQUE/cheque-black-webfont_1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'intro_rust_gbase_2_line';
+  src: url('zing rust/introrustg-base2line-webfont.woff') format('woff2'),
+    url('zing rust/introrustg-base2line-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 
 
-body{
-  background-image:url('dribble_2-07.png');
-  background-repeat:no-repeat;
-  background-size:cover;
+body {
+  background-image: url('dribble_2-07.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* NAVIGATION-BAR */
 
-.nav-color{
+.nav-color {
   /* background-color: #000; */
 }
 
-.nav-link{
+.nav-link {
   color: #fff;
-  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: 'bebas_neuebold';
+  font-size:20px;
 }
 
-.nav-link:hover{
-  color: chartreuse;
-  font-family: 'Quicksand', sans-serif;
+.nav-link:hover {
+  /* font-family: 'Quicksand', sans-serif; */
 }
 
 /* SECOND-DIV-DISCRIPTION */
 
-.head-div{
-  height: 500px;
+.head{
+  /* font-family: 'bebas_neuebold'; */
+  font-family: '36_daysregular','chequeblack';
+  text-align: center;
 }
 
-.heading-one{
-  font-family: 'Lexend Giga', sans-serif;
-  color: #000;
-  /* color: #fff; */
-  margin-top: 250px;
-}
-
-@media(max-width:580px){
-  .heading-one{
+@media(max-width:580px) {
+  .head{
     text-align: center;
-    font-size:60px;
-    
+    font-size: 60px;
+
   }
-  body{
+
+  body {
     background-image: url('media-query-back.png');
   }
 }
